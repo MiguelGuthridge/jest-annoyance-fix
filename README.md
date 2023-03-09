@@ -1,6 +1,6 @@
 # Jest bug demo
 
-A simple reproduction of an annoying bug in Jest
+A simple reproduction of [an annoying bug in Jest](https://github.com/facebook/jest/issues/13993)
 
 ## To reproduce:
 
