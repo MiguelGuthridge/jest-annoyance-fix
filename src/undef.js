@@ -1,14 +1,14 @@
 /**
- * This is a very
- * very
- * long comment
+ * This is a long comment
  *
- * It breaks error locations running the code
- *
- * Idk why
- *
- * Please can this be fixed?
+ * It causes the error message to appear in a misleading place
  */
+
+import fs from 'fs';
+// Error looks like it originated from import, even though it clearly didn't
+// This is very confusing, especially for novice users.
+
+
 export function doThing() {
   let someVar; // undefined
 
