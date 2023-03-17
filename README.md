@@ -1,6 +1,6 @@
 # Jest annoyance fix
 
-A solution for [an annoying thing with Jest](https://github.com/facebook/jest/issues/13993)
+A solution for an annoying thing with Jest and Babel
 
 ## Expected results
 
