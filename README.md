@@ -2,12 +2,6 @@
 
 A solution for [an annoying thing with Jest](https://github.com/facebook/jest/issues/13993)
 
-## To reproduce
-
-1. Clone repository
-2. Run `npm install`
-3. Run `npm test`
-
 ## Expected results
 
 The error is similar to the error produced when running `npm start`
