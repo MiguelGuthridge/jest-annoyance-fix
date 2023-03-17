@@ -1,4 +1,4 @@
-# Jest bug demo
+# Jest annoyance fix
 
 A solution for [an annoying thing with Jest](https://github.com/facebook/jest/issues/13993)
 
