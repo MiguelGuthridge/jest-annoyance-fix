@@ -1,8 +1,8 @@
 # Jest bug demo
 
-A simple reproduction of [an annoying bug in Jest](https://github.com/facebook/jest/issues/13993)
+A solution for [an annoying thing with Jest](https://github.com/facebook/jest/issues/13993)
 
-## To reproduce:
+## To reproduce
 
 1. Clone repository
 2. Run `npm install`
@@ -68,3 +68,10 @@ Snapshots:   0 total
 Time:        0.556 s, estimated 1 s
 Ran all test suites.
 ```
+
+## Solution
+
+Configure Babel to target the current version of Node.
+
+1. Delete `.babelrc`
+2. Create a new `.babelrc.cjs` with the contents of [the file in this repo](./.babelrc.cjs)
